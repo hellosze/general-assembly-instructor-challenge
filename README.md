@@ -1,2 +1,10 @@
 # general-assembly-instructor-challenge
-This is the front end for the General Assembly Instructor Challenge using the OMDB API
+Code for the General Assembly Instructor Challenge using the OMDB API
+
+#Installation Instructions
+npm install -g nodemon
+npm install
+
+#Execution instructions, examples
+nodemon ./server.js localhost 3000
+
