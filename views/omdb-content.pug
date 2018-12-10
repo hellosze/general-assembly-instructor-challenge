@@ -1,0 +1,4 @@
+ul
+  each result in omdb_results
+    li  
+      a(href='http://www.imdb.com/title/'+result.imdbID) #{result.Title} (#{result.Year})
